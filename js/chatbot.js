@@ -5,7 +5,7 @@
    ================================================================ */
 
 // ── CONFIG ────────────────────────────────────────────────────────
-const WHATSAPP_NUMBER = '61400000000'; // Replace with real number (no + or spaces)
+const WHATSAPP_NUMBER = '61434108321';
 const WHATSAPP_MSG    = 'Hi Maxima Accountants! I found you on your website and would like to get in touch.';
 
 // ── KNOWLEDGE BASE ────────────────────────────────────────────────
