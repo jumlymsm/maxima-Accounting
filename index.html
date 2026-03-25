@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maxima Accountants – Accounting & Business Services</title>
+  <meta name="description" content="Maxima Accountants provides professional accounting, bookkeeping, payroll, BAS lodgments, Xero setup, CFO services and more."/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.svg" alt="Maxima Accountants" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <span class="nav__logo-text" style="display:none">
+          <span class="logo-max">MAXIMA</span>
+          <small class="logo-sub">Accountants</small>
+        </span>
+      </a>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#pricing" class="nav__link">Pricing</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--primary nav__cta">Get Started</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <div class="hero__text">
+        <span class="hero__badge">Trusted Accounting Partner</span>
+        <h1 class="hero__title">Smart Accounting<br/><span>For Growing Businesses</span></h1>
+        <p class="hero__desc">Maxima Accountants delivers expert bookkeeping, payroll, BAS lodgments, CFO advisory and Xero solutions — so you can focus on what you do best.</p>
+        <div class="hero__actions">
+          <a href="#services" class="btn btn--primary">Explore Services</a>
+          <a href="#contact" class="btn btn--outline">Book a Free Call</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat"><strong>200+</strong><span>Clients Served</span></div>
+          <div class="stat"><strong>10+</strong><span>Years Experience</span></div>
+          <div class="stat"><strong>100%</strong><span>Compliance Rate</span></div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card hero__card--1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          <div><strong>BAS Lodged</strong><small>On time, every time</small></div>
+        </div>
+        <div class="hero__card hero__card--2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <div><strong>Payroll Processed</strong><small>Accurate & compliant</small></div>
+        </div>
+        <div class="hero__card hero__card--3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          <div><strong>CFO Insights</strong><small>Strategic reporting</small></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/></svg>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust container">
+    <p class="trust__label">Proud partner of</p>
+    <div class="trust__logos">
+      <span class="trust__logo">Xero Certified</span>
+      <span class="trust__sep">·</span>
+      <span class="trust__logo">MYOB Partner</span>
+      <span class="trust__sep">·</span>
+      <span class="trust__logo">ATO Registered</span>
+      <span class="trust__sep">·</span>
+      <span class="trust__logo">QuickBooks ProAdvisor</span>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">What We Do</span>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-desc">From day-to-day bookkeeping to high-level CFO advisory, we cover every financial need of your business.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card" data-service="accounts">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#22d3ee" stroke-width="2">
+              <rect x="8" y="8" width="48" height="48" rx="4"/>
+              <path d="M20 32h24M20 22h24M20 42h16"/>
+              <circle cx="46" cy="46" r="6" fill="#e0f9ff" stroke="#22d3ee"/>
+              <path d="M44 46h4M46 44v4"/>
+            </svg>
+          </div>
+          <h3>Accounts Payable &amp; Receivable</h3>
+          <p>Streamlined management of your invoices, payments and collections to keep your cash flow healthy.</p>
+          <a href="services/accounts.html" class="service-card__link">Find out more →</a>
+        </div>
+
+        <div class="service-card" data-service="bas">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#22d3ee" stroke-width="2">
+              <rect x="8" y="14" width="48" height="36" rx="4"/>
+              <path d="M8 26h48M22 14v12M42 14v12"/>
+              <circle cx="24" cy="38" r="3" fill="#e0f9ff" stroke="#22d3ee"/>
+              <path d="M32 38h12"/>
+            </svg>
+          </div>
+          <h3>BAS Lodgments</h3>
+          <p>Accurate and on-time Business Activity Statement preparation and lodgment with the ATO.</p>
+          <a href="services/bas.html" class="service-card__link">Find out more →</a>
+        </div>
+
+        <div class="service-card" data-service="xero">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#22d3ee" stroke-width="2">
+              <rect x="6" y="10" width="52" height="34" rx="4"/>
+              <path d="M6 20h52M16 30h8M16 36h12M38 30l6 6M44 30l-6 6"/>
+              <path d="M24 52h16M32 44v8"/>
+            </svg>
+          </div>
+          <h3>Xero Setup &amp; Training</h3>
+          <p>Full Xero implementation, chart of accounts setup, and hands-on staff training tailored to your industry.</p>
+          <a href="services/xero.html" class="service-card__link">Find out more →</a>
+        </div>
+
+        <div class="service-card" data-service="virtual">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#22d3ee" stroke-width="2">
+              <rect x="14" y="8" width="36" height="28" rx="3"/>
+              <circle cx="32" cy="22" r="6"/>
+              <path d="M20 56c0-7 5-12 12-12s12 5 12 12"/>
+              <path d="M46 14c4 2 6 6 6 10M48 28c6-2 10-6 10-12"/>
+            </svg>
+          </div>
+          <h3>Virtual Assistant</h3>
+          <p>Dedicated remote support for administrative tasks, scheduling, data entry and client communications.</p>
+          <a href="services/virtual.html" class="service-card__link">Find out more →</a>
+        </div>
+
+        <div class="service-card" data-service="business">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#22d3ee" stroke-width="2">
+              <path d="M10 50 L10 30 L20 30 L20 50"/>
+              <path d="M26 50 L26 20 L36 20 L36 50"/>
+              <path d="M42 50 L42 10 L52 10 L52 50"/>
+              <path d="M6 50h52"/>
+              <path d="M14 24l10-8 10 6 14-14"/>
+            </svg>
+          </div>
+          <h3>Business Systems</h3>
+          <p>Process mapping, software integration, and workflow automation to make your operations more efficient.</p>
+          <a href="services/business.html" class="service-card__link">Find out more →</a>
+        </div>
+
+        <div class="service-card" data-service="payroll">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#22d3ee" stroke-width="2">
+              <circle cx="32" cy="32" r="22"/>
+              <path d="M32 18v4M32 42v4M18 32h4M42 32h4"/>
+              <path d="M27 32c0-2.8 2.2-5 5-5s5 2.2 5 5-2.2 5-5 5"/>
+              <path d="M32 27v-4M32 41v-4"/>
+            </svg>
+          </div>
+          <h3>Payroll</h3>
+          <p>End-to-end payroll processing, STP reporting, superannuation, leave management and employee onboarding.</p>
+          <a href="services/payroll.html" class="service-card__link">Find out more →</a>
+        </div>
+
+        <div class="service-card" data-service="cfo">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#22d3ee" stroke-width="2">
+              <path d="M10 50 L10 30 L20 30 L20 50"/>
+              <path d="M26 50 L26 20 L36 20 L36 50"/>
+              <path d="M42 50 L42 10 L52 10 L52 50"/>
+              <path d="M6 50h52"/>
+              <circle cx="48" cy="16" r="8" fill="#e0f9ff" stroke="#22d3ee"/>
+              <path d="M45 16h6M48 13v6"/>
+            </svg>
+          </div>
+          <h3>CFO Services</h3>
+          <p>Fractional CFO support — financial forecasting, budgeting, KPI dashboards and strategic growth planning.</p>
+          <a href="services/cfo.html" class="service-card__link">Find out more →</a>
+        </div>
+
+        <div class="service-card service-card--cta" data-service="pricing">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#22d3ee" stroke-width="2">
+              <path d="M32 8l6 14h14l-11 8 4 14-13-9-13 9 4-14L12 22h14z"/>
+            </svg>
+          </div>
+          <h3>Pricing</h3>
+          <p>Transparent, flexible packages designed for startups, SMEs and established businesses of all sizes.</p>
+          <a href="#pricing" class="service-card__link">Find out more →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__visual">
+        <div class="about__img-wrap">
+          <div class="about__img-placeholder">
+            <svg viewBox="0 0 200 200" fill="none">
+              <circle cx="100" cy="100" r="100" fill="#e0f9ff"/>
+              <circle cx="100" cy="75" r="30" fill="#22d3ee" opacity=".3"/>
+              <path d="M50 160c0-27.6 22.4-50 50-50s50 22.4 50 50" fill="#22d3ee" opacity=".2"/>
+              <circle cx="100" cy="75" r="22" fill="#22d3ee" opacity=".6"/>
+              <path d="M55 158c3-24 22-42 45-42s42 18 45 42" fill="#22d3ee" opacity=".5"/>
+            </svg>
+          </div>
+          <div class="about__badge-float">
+            <strong>10+</strong><span>Years in Business</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__text">
+        <span class="section-badge">About Us</span>
+        <h2 class="section-title">Your Dedicated Financial Partner</h2>
+        <p>Maxima Accountants was founded with one goal: to give small and medium businesses the same quality of financial management that large corporations enjoy — at an accessible price.</p>
+        <p>Our team of qualified accountants and bookkeepers are passionate about helping businesses grow through clarity, compliance and strategic insight. We work as an extension of your team, not just a service provider.</p>
+        <ul class="about__list">
+          <li>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Registered BAS Agents &amp; Xero Certified Advisors
+          </li>
+          <li>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Proactive, cloud-based approach to bookkeeping
+          </li>
+          <li>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Fast response times — we're always in your corner
+          </li>
+          <li>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Fixed-fee packages — no surprise bills
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn--primary">Work With Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Transparent Pricing</span>
+        <h2 class="section-title">Simple, Fixed-Fee Plans</h2>
+        <p class="section-desc">No hidden costs. Choose the plan that fits your business and upgrade anytime.</p>
+      </div>
+      <div class="pricing__toggle">
+        <span class="toggle-label active" id="monthlyLabel">Monthly</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="billingToggle"/>
+          <span class="toggle-slider"></span>
+        </label>
+        <span class="toggle-label" id="annualLabel">Annual <em class="save-badge">Save 15%</em></span>
+      </div>
+      <div class="pricing__grid">
+        <div class="pricing-card">
+          <div class="pricing-card__header">
+            <h3>Starter</h3>
+            <p>Perfect for sole traders &amp; startups</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="currency">$</span>
+            <span class="amount" data-monthly="299" data-annual="254">299</span>
+            <span class="period">/mo</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Bank reconciliation</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Quarterly BAS lodgment</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Accounts payable &amp; receivable</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Monthly P&amp;L report</li>
+            <li class="disabled"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>Payroll</li>
+            <li class="disabled"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>CFO Services</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline btn--full">Get Started</a>
+        </div>
+
+        <div class="pricing-card pricing-card--popular">
+          <div class="popular-badge">Most Popular</div>
+          <div class="pricing-card__header">
+            <h3>Growth</h3>
+            <p>For growing SMEs with staff</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="currency">$</span>
+            <span class="amount" data-monthly="599" data-annual="509">599</span>
+            <span class="period">/mo</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Everything in Starter</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Payroll up to 10 employees</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Monthly BAS lodgment</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Xero setup &amp; support</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Virtual assistant (5 hrs/mo)</li>
+            <li class="disabled"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>CFO Services</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary btn--full">Get Started</a>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pricing-card__header">
+            <h3>Enterprise</h3>
+            <p>Full-service for established businesses</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="currency">$</span>
+            <span class="amount" data-monthly="999" data-annual="849">999</span>
+            <span class="period">/mo</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Everything in Growth</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Unlimited payroll</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Fractional CFO services</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Business systems consulting</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Virtual assistant (20 hrs/mo)</li>
+            <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Dedicated account manager</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline btn--full">Get Started</a>
+        </div>
+      </div>
+      <p class="pricing__note">All prices are in AUD and exclude GST. Custom quotes available for larger businesses.</p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Client Stories</span>
+        <h2 class="section-title">What Our Clients Say</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Maxima Accountants transformed how we manage our finances. Our BAS is always lodged on time and we finally have visibility into our cash flow."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">SL</div>
+            <div><strong>Sarah L.</strong><small>Founder, Fresh Plate Catering</small></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The Xero setup and training was excellent. Our team was up and running within a week. Their ongoing support has been invaluable."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">MR</div>
+            <div><strong>Mark R.</strong><small>Director, BuildRight Construction</small></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Having fractional CFO services without the full-time cost is a game changer. The strategic reports have helped us make better decisions."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">JT</div>
+            <div><strong>Julie T.</strong><small>CEO, NovaTech Solutions</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <span class="section-badge">Get In Touch</span>
+        <h2 class="section-title">Let's Talk About<br/>Your Business</h2>
+        <p>Book a free 30-minute consultation. No obligation, no jargon — just honest advice.</p>
+        <div class="contact__details">
+          <div class="contact__detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            <span>+61 (0) 000 000 000</span>
+          </div>
+          <div class="contact__detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <span>hello@maximaconsultancy.com.au</span>
+          </div>
+          <div class="contact__detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <span>Australia — servicing clients nationwide</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact__form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Jane" required/>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Smith" required/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required/>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+61 400 000 000"/>
+        </div>
+        <div class="form-group">
+          <label for="service">Service Interested In</label>
+          <select id="service" name="service">
+            <option value="">Select a service…</option>
+            <option>Accounts Payable &amp; Receivable</option>
+            <option>BAS Lodgments</option>
+            <option>Xero Setup &amp; Training</option>
+            <option>Virtual Assistant</option>
+            <option>Business Systems</option>
+            <option>Payroll</option>
+            <option>CFO Services</option>
+            <option>Full-Service Package</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about your business…"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+        <p class="form-note">We'll respond within 1 business day.</p>
+        <div class="form-success" id="formSuccess">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+          Thank you! We'll be in touch soon.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo">
+          <span class="logo-max">Maxima</span><span class="logo-con"> Consultancy</span>
+        </a>
+        <p>Professional accounting and business services to help Australian businesses thrive.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services/accounts.html">Accounts Payable &amp; Receivable</a></li>
+          <li><a href="services/bas.html">BAS Lodgments</a></li>
+          <li><a href="services/xero.html">Xero Setup &amp; Training</a></li>
+          <li><a href="services/virtual.html">Virtual Assistant</a></li>
+          <li><a href="services/business.html">Business Systems</a></li>
+          <li><a href="services/payroll.html">Payroll</a></li>
+          <li><a href="services/cfo.html">CFO Services</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <ul>
+          <li>+61 (0) 000 000 000</li>
+          <li>hello@maximaconsultancy.com.au</li>
+          <li>Australia — nationwide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2026 Maxima Accountants. All rights reserved.</p>
+      <p>ABN: 00 000 000 000</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services – Maxima Accountants</title>
+  <meta name="description" content="Accounting & Tax, Bookkeeping, CFO Services, Payroll, Xero, BAS and more from Maxima Accountants."/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.svg" alt="Maxima Accountants" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <span class="nav__logo-text" style="display:none"><span class="logo-max">MAXIMA</span><small class="logo-sub">Accountants</small></span>
+      </a>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="services.html" class="nav__link active">Services</a></li>
+        <li><a href="index.html#about" class="nav__link">About</a></li>
+        <li><a href="index.html#pricing" class="nav__link">Pricing</a></li>
+        <li><a href="index.html#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <a href="index.html#contact" class="btn btn--primary nav__cta">Get Started</a>
+      <button class="nav__toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container page-hero__content">
+      <a href="index.html" class="page-hero__back">← Back to Home</a>
+      <h1>Our Services</h1>
+      <p>Comprehensive accounting, tax, bookkeeping and advisory services for Australian businesses of every size.</p>
+    </div>
+  </section>
+
+  <!-- TABS -->
+  <section class="services-tabs-section">
+    <div class="container">
+
+      <div class="tabs-nav">
+        <button class="tab-btn active" data-tab="tab-accounting">Accounting &amp; Tax</button>
+        <button class="tab-btn" data-tab="tab-bookkeeping">Bookkeeping &amp; CFO Services</button>
+        <button class="tab-btn" data-tab="tab-more">More Services</button>
+        <button class="tab-btn" data-tab="tab-offices">Offices</button>
+      </div>
+
+      <!-- ===== ACCOUNTING & TAX ===== -->
+      <div class="tab-content active" id="tab-accounting">
+        <div class="tab-sidebar">
+          <span class="tab-sidebar__item active" data-detail="acc-business">Business Financials &amp; Tax Returns</span>
+          <span class="tab-sidebar__item" data-detail="acc-tax-planning">Tax Planning</span>
+          <span class="tab-sidebar__item" data-detail="acc-plan">Business Plan &amp; Structure</span>
+          <span class="tab-sidebar__item" data-detail="acc-advisory">Advisory Board</span>
+          <span class="tab-sidebar__item" data-detail="acc-rd">R&amp;D Tax and Grants</span>
+          <span class="tab-sidebar__item" data-detail="acc-smsf">Self-Managed Super Fund (SMSF)</span>
+          <span class="tab-sidebar__item" data-detail="acc-fbt">Fringe Benefits Tax (FBT)</span>
+          <span class="tab-sidebar__item" data-detail="acc-bas">BAS Lodgment</span>
+          <span class="tab-sidebar__item" data-detail="acc-individual">Individual Tax Returns</span>
+          <span class="tab-sidebar__item" data-detail="acc-restr">Restructuring &amp; Insolvency</span>
+        </div>
+        <div class="tab-detail">
+
+          <div data-detail-panel="acc-business">
+            <h3>Accounting &amp; Tax</h3>
+            <p>Our team of qualified tax accountants will provide you with the tools you need to make viable decisions and take control of your business.</p>
+            <p>We prepare accurate, ATO-compliant financial statements and tax returns for companies, trusts, partnerships and sole traders — ensuring you never pay more tax than necessary while staying fully compliant.</p>
+            <ul>
+              <li>Company, trust, partnership &amp; sole trader tax returns</li>
+              <li>Preparation of financial statements (P&amp;L, Balance Sheet)</li>
+              <li>Depreciation schedules and asset registers</li>
+              <li>Division 7A loan compliance</li>
+              <li>ATO audit support and representation</li>
+            </ul>
+            <a href="services/accounts.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="acc-tax-planning" style="display:none">
+            <h3>Tax Planning</h3>
+            <p>Proactive tax planning is the difference between reacting to a tax bill and controlling it. Our advisors work with you throughout the year — not just at tax time — to identify legitimate minimisation strategies.</p>
+            <ul>
+              <li>Year-round tax minimisation strategies</li>
+              <li>Timing of income and deductions</li>
+              <li>Trust distribution planning</li>
+              <li>Capital gains tax (CGT) management</li>
+              <li>Superannuation contribution strategies</li>
+            </ul>
+            <a href="services/accounts.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="acc-plan" style="display:none">
+            <h3>Business Plan &amp; Structure</h3>
+            <p>The right business structure protects your assets, minimises tax and sets you up for growth. We help you choose and establish the optimal entity — and build a financial plan to match your goals.</p>
+            <ul>
+              <li>Sole trader vs company vs trust analysis</li>
+              <li>Business plan preparation for finance or growth</li>
+              <li>Cash flow forecasting and scenario modelling</li>
+              <li>Entity setup and ASIC registration</li>
+              <li>Shareholder and partnership agreements (referral)</li>
+            </ul>
+            <a href="services/accounts.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="acc-advisory" style="display:none">
+            <h3>Advisory Board</h3>
+            <p>A structured advisory board brings outside perspective and accountability to your leadership. We help you establish an effective board and participate as your independent financial advisor.</p>
+            <ul>
+              <li>Advisory board setup and facilitation</li>
+              <li>KPI and performance dashboard development</li>
+              <li>Strategic financial review meetings</li>
+              <li>Growth and exit planning advice</li>
+              <li>Independent financial reporting to directors</li>
+            </ul>
+            <a href="services/cfo.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="acc-rd" style="display:none">
+            <h3>R&amp;D Tax and Grants</h3>
+            <p>Australia's R&amp;D Tax Incentive can return up to 43.5 cents in the dollar for eligible R&amp;D expenditure. We manage the entire claim process and help identify grant opportunities to fuel your innovation.</p>
+            <ul>
+              <li>R&amp;D activity eligibility assessment</li>
+              <li>AusIndustry registration and ATO claim preparation</li>
+              <li>R&amp;D expenditure documentation and reconciliation</li>
+              <li>Government grants identification and application support</li>
+              <li>ATO audit defence for R&amp;D claims</li>
+            </ul>
+            <a href="services/accounts.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="acc-smsf" style="display:none">
+            <h3>Self-Managed Super Fund (SMSF)</h3>
+            <p>An SMSF gives you control over your retirement savings and opens up broader investment options. We handle the compliance, accounting and audit requirements so you can focus on building wealth.</p>
+            <ul>
+              <li>SMSF setup and trust deed preparation</li>
+              <li>Annual financial statements and member accounts</li>
+              <li>SMSF tax return lodgment</li>
+              <li>Independent SMSF audit coordination</li>
+              <li>Contribution and pension strategy advice</li>
+            </ul>
+            <a href="services/accounts.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="acc-fbt" style="display:none">
+            <h3>Fringe Benefits Tax (FBT)</h3>
+            <p>FBT is one of the most complex areas of Australian tax law. We ensure your business meets its FBT obligations — and identify any exemptions or reductions you're entitled to.</p>
+            <ul>
+              <li>FBT return preparation and lodgment</li>
+              <li>Motor vehicle and car-parking benefit calculations</li>
+              <li>Salary packaging arrangement review</li>
+              <li>FBT exempt benefit identification</li>
+              <li>ATO FBT audit support</li>
+            </ul>
+            <a href="services/accounts.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="acc-bas" style="display:none">
+            <h3>BAS Lodgment</h3>
+            <p>Accurate and on-time Business Activity Statement lodgment keeps you compliant and cash-flow positive. Our registered BAS agents handle everything — from GST reconciliation to PAYG withholding.</p>
+            <ul>
+              <li>Monthly, quarterly and annual BAS preparation</li>
+              <li>GST reconciliation and reporting</li>
+              <li>PAYG withholding and instalments</li>
+              <li>Fuel tax credits</li>
+              <li>ATO correspondence and amendment management</li>
+            </ul>
+            <a href="services/bas.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="acc-individual" style="display:none">
+            <h3>Individual Tax Returns</h3>
+            <p>Whether you're an employee, investor, landlord or business owner, we maximise your refund and ensure you claim every deduction you're entitled to — accurately and on time.</p>
+            <ul>
+              <li>Employee income tax returns</li>
+              <li>Rental property income and deductions</li>
+              <li>Capital gains from shares and property</li>
+              <li>Work-from-home expense claims</li>
+              <li>Cryptocurrency and investment income</li>
+            </ul>
+            <a href="services/accounts.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="acc-restr" style="display:none">
+            <h3>Restructuring &amp; Insolvency</h3>
+            <p>If your business is under financial pressure, early action makes all the difference. We work alongside your team and specialist insolvency practitioners to explore all available options before it's too late.</p>
+            <ul>
+              <li>Financial position review and solvency assessment</li>
+              <li>Turnaround strategy and cash flow rescue planning</li>
+              <li>Voluntary administration preparation support</li>
+              <li>Creditor negotiation assistance</li>
+              <li>Referral to ASIC-registered insolvency practitioners</li>
+            </ul>
+            <a href="services/accounts.html" class="read-more">Read more →</a>
+          </div>
+
+        </div><!-- /tab-detail -->
+      </div><!-- /tab-content accounting -->
+
+      <!-- ===== BOOKKEEPING & CFO ===== -->
+      <div class="tab-content" id="tab-bookkeeping">
+        <div class="tab-sidebar">
+          <span class="tab-sidebar__item active" data-detail="bk-bookkeeping">Bookkeeping</span>
+          <span class="tab-sidebar__item" data-detail="bk-payroll">Payroll</span>
+          <span class="tab-sidebar__item" data-detail="bk-ap">Accounts Payable &amp; Receivable</span>
+          <span class="tab-sidebar__item" data-detail="bk-xero">Xero Setup &amp; Training</span>
+          <span class="tab-sidebar__item" data-detail="bk-cfo">CFO Services</span>
+          <span class="tab-sidebar__item" data-detail="bk-reporting">Management Reporting</span>
+          <span class="tab-sidebar__item" data-detail="bk-cashflow">Cash Flow Management</span>
+        </div>
+        <div class="tab-detail">
+
+          <div data-detail-panel="bk-bookkeeping">
+            <h3>Bookkeeping &amp; CFO Services</h3>
+            <p>Accurate books are the foundation of every successful business. Our experienced bookkeepers keep your records clean, current and compliant — giving you real-time visibility into your financial position.</p>
+            <ul>
+              <li>Day-to-day transaction coding and reconciliation</li>
+              <li>Bank feed setup and management</li>
+              <li>Monthly and quarterly financial close</li>
+              <li>Chart of accounts optimisation</li>
+              <li>Cloud-based bookkeeping (Xero, MYOB, QuickBooks)</li>
+            </ul>
+            <a href="services/business.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="bk-payroll" style="display:none">
+            <h3>Payroll</h3>
+            <p>From onboarding to termination, we manage your entire payroll function accurately and in full compliance with Fair Work, STP Phase 2 and superannuation obligations.</p>
+            <ul>
+              <li>Weekly, fortnightly and monthly payroll processing</li>
+              <li>Single Touch Payroll (STP Phase 2) reporting</li>
+              <li>Superannuation guarantee calculation and payment</li>
+              <li>Leave accrual management</li>
+              <li>End-of-year payroll finalisation and payment summaries</li>
+            </ul>
+            <a href="services/payroll.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="bk-ap" style="display:none">
+            <h3>Accounts Payable &amp; Receivable</h3>
+            <p>Never chase an invoice again. We manage your entire AP and AR cycle — from supplier payments to client collections — keeping your cash flow strong and your relationships intact.</p>
+            <ul>
+              <li>Invoice creation and client follow-up</li>
+              <li>Supplier invoice processing and approval workflows</li>
+              <li>Aged debtor and creditor reporting</li>
+              <li>Payment run management and bank reconciliation</li>
+              <li>Debtor escalation and dispute support</li>
+            </ul>
+            <a href="services/accounts.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="bk-xero" style="display:none">
+            <h3>Xero Setup &amp; Training</h3>
+            <p>Get up and running on Xero fast — and do it right the first time. Our Xero Certified Advisors handle full implementation, data migration and staff training tailored to your industry.</p>
+            <ul>
+              <li>New Xero subscription setup and configuration</li>
+              <li>Chart of accounts and tracking category setup</li>
+              <li>Historical data migration and cleanup</li>
+              <li>Bank feed and app integrations (Stripe, Hubdoc, etc.)</li>
+              <li>One-on-one and group staff training sessions</li>
+            </ul>
+            <a href="services/xero.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="bk-cfo" style="display:none">
+            <h3>CFO Services</h3>
+            <p>Access the strategic financial leadership of a seasoned CFO — without the full-time salary. Our fractional CFO service gives growing businesses the insight and guidance needed to make bold, confident decisions.</p>
+            <ul>
+              <li>Monthly management accounts and KPI dashboards</li>
+              <li>Annual budgeting and rolling 12-month forecasts</li>
+              <li>Scenario modelling and what-if analysis</li>
+              <li>Board and investor reporting</li>
+              <li>Finance team leadership and mentoring</li>
+            </ul>
+            <a href="services/cfo.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="bk-reporting" style="display:none">
+            <h3>Management Reporting</h3>
+            <p>Stop flying blind. Our management reporting service delivers clear, timely financial reports that highlight what's working, what isn't and where to focus next.</p>
+            <ul>
+              <li>Monthly P&amp;L, balance sheet and cash flow statements</li>
+              <li>Variance analysis against budget</li>
+              <li>Divisional and project profitability reporting</li>
+              <li>Executive dashboard design</li>
+              <li>Custom KPI tracking reports</li>
+            </ul>
+            <a href="services/cfo.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="bk-cashflow" style="display:none">
+            <h3>Cash Flow Management</h3>
+            <p>Cash flow — not profit — is what keeps a business alive. We build rolling cash flow forecasts and implement systems that give you clarity and control over every dollar in and out.</p>
+            <ul>
+              <li>13-week rolling cash flow forecasts</li>
+              <li>Working capital analysis and optimisation</li>
+              <li>Debtor collection strategy</li>
+              <li>Payment terms review</li>
+              <li>Cash flow crisis early warning systems</li>
+            </ul>
+            <a href="services/cfo.html" class="read-more">Read more →</a>
+          </div>
+
+        </div>
+      </div><!-- /tab-bookkeeping -->
+
+      <!-- ===== MORE SERVICES ===== -->
+      <div class="tab-content" id="tab-more">
+        <div class="tab-sidebar">
+          <span class="tab-sidebar__item active" data-detail="ms-virtual">Virtual Assistant</span>
+          <span class="tab-sidebar__item" data-detail="ms-systems">Business Systems</span>
+          <span class="tab-sidebar__item" data-detail="ms-startup">Business Start-Up</span>
+          <span class="tab-sidebar__item" data-detail="ms-finance">Finance &amp; Lending</span>
+          <span class="tab-sidebar__item" data-detail="ms-software">Software Integrations</span>
+        </div>
+        <div class="tab-detail">
+
+          <div data-detail-panel="ms-virtual">
+            <h3>More Services</h3>
+            <p>Beyond accounting, we offer a range of support services that free up your time and help your business run more efficiently — all under one roof.</p>
+            <p>Our Virtual Assistant service provides dedicated remote administrative support so you can focus on what you do best.</p>
+            <ul>
+              <li>Email and calendar management</li>
+              <li>Data entry and document preparation</li>
+              <li>Client communication and follow-ups</li>
+              <li>Report formatting and presentation preparation</li>
+              <li>Online research and scheduling</li>
+            </ul>
+            <a href="services/virtual.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="ms-systems" style="display:none">
+            <h3>Business Systems</h3>
+            <p>Disconnected tools and manual processes cost your business time and money. We map your workflows, identify inefficiencies and implement integrated systems that scale with you.</p>
+            <ul>
+              <li>Business process mapping and documentation</li>
+              <li>Software stack review and recommendations</li>
+              <li>Xero app marketplace integrations</li>
+              <li>Workflow automation (Zapier, Make)</li>
+              <li>Operations manual creation</li>
+            </ul>
+            <a href="services/business.html" class="read-more">Read more →</a>
+          </div>
+
+          <div data-detail-panel="ms-startup" style="display:none">
+            <h3>Business Start-Up</h3>
+            <p>Starting right sets you up for long-term success. We guide new business owners through every financial and compliance step — from ABN registration to your first BAS.</p>
+            <ul>
+              <li>ABN, ACN and GST registration</li>
+              <li>Business structure advice and entity setup</li>
+              <li>Opening balance sheet and chart of accounts</li>
+              <li>Accounting software setup and onboarding</li>
+              <li>Compliance calendar and obligation checklist</li>
+            </ul>
+            <a href="index.html#contact" class="read-more">Get started →</a>
+          </div>
+
+          <div data-detail-panel="ms-finance" style="display:none">
+            <h3>Finance &amp; Lending</h3>
+            <p>Whether you're looking to purchase equipment, fund growth or refinance existing debt, we prepare the financial documentation lenders need and work with our broker network to get you the best outcome.</p>
+            <ul>
+              <li>Loan-ready financial statement preparation</li>
+              <li>Equipment finance and asset purchase support</li>
+              <li>Cash flow statements for bank applications</li>
+              <li>Business acquisition finance preparation</li>
+              <li>Mortgage broker referral network</li>
+            </ul>
+            <a href="index.html#contact" class="read-more">Enquire now →</a>
+          </div>
+
+          <div data-detail-panel="ms-software" style="display:none">
+            <h3>Software Integrations</h3>
+            <p>We connect your accounting platform to the tools your team already uses — eliminating double entry, reducing errors and saving hours every week.</p>
+            <ul>
+              <li>Xero + Shopify / WooCommerce integration</li>
+              <li>Stripe and PayPal reconciliation automation</li>
+              <li>Hubdoc / Dext for receipt capture</li>
+              <li>Deputy / Employment Hero payroll integration</li>
+              <li>Custom API connection scoping</li>
+            </ul>
+            <a href="services/business.html" class="read-more">Read more →</a>
+          </div>
+
+        </div>
+      </div><!-- /tab-more -->
+
+      <!-- ===== OFFICES ===== -->
+      <div class="tab-content" id="tab-offices">
+        <div style="padding: 8px 0; width: 100%;">
+          <h3 style="font-size:1.3rem;font-weight:800;color:var(--blue);text-transform:uppercase;letter-spacing:.04em;margin-bottom:12px;">Our Offices</h3>
+          <p style="color:var(--slate);margin-bottom:40px;">We service clients Australia-wide. Visit us at one of our offices or connect with us remotely — we're set up for seamless virtual collaboration.</p>
+          <div class="offices-grid">
+            <div class="office-card">
+              <h3>Sydney — Head Office</h3>
+              <p>Level 10, 123 Pitt Street</p>
+              <p>Sydney NSW 2000</p>
+              <p style="margin-top:12px;"><strong>P:</strong> +61 2 0000 0000</p>
+              <p><strong>E:</strong> sydney@maximaaccountants.com.au</p>
+            </div>
+            <div class="office-card">
+              <h3>Melbourne</h3>
+              <p>Suite 5, 456 Collins Street</p>
+              <p>Melbourne VIC 3000</p>
+              <p style="margin-top:12px;"><strong>P:</strong> +61 3 0000 0000</p>
+              <p><strong>E:</strong> melbourne@maximaaccountants.com.au</p>
+            </div>
+            <div class="office-card">
+              <h3>Brisbane</h3>
+              <p>Level 3, 789 Queen Street</p>
+              <p>Brisbane QLD 4000</p>
+              <p style="margin-top:12px;"><strong>P:</strong> +61 7 0000 0000</p>
+              <p><strong>E:</strong> brisbane@maximaaccountants.com.au</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- /tab-offices -->
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background:var(--blue-light);padding:80px 0;text-align:center;">
+    <div class="container">
+      <h2 style="font-size:2rem;font-weight:800;color:var(--charcoal);margin-bottom:16px;">Ready to get started?</h2>
+      <p style="color:var(--slate);margin-bottom:32px;font-size:1.05rem;">Book a free 30-minute consultation — no obligation, no jargon.</p>
+      <a href="index.html#contact" class="btn btn--primary">Book a Free Call</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo"><img src="images/logo.svg" alt="Maxima Accountants"/></a>
+        <p>Professional accounting and business services for Australian businesses.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services/accounts.html">Accounting &amp; Tax</a></li>
+          <li><a href="services/bas.html">BAS Lodgments</a></li>
+          <li><a href="services/xero.html">Xero Setup &amp; Training</a></li>
+          <li><a href="services/payroll.html">Payroll</a></li>
+          <li><a href="services/cfo.html">CFO Services</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <ul>
+          <li>+61 (0) 000 000 000</li>
+          <li>hello@maximaaccountants.com.au</li>
+          <li>Australia — nationwide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2026 Maxima Accountants. All rights reserved.</p>
+      <p>ABN: 00 000 000 000</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

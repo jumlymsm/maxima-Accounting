@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80" role="img" aria-label="Maxima Accountants Logo">
+  <!-- M mark - two mountain/arrow shapes -->
+  <polygon points="4,60 20,28 30,46 40,28 56,60" fill="#2B6CB0"/>
+  <polygon points="22,60 34,38 46,60" fill="#1A4F8A" opacity="0.5"/>
+
+  <!-- MAXIMA text -->
+  <text x="64" y="44" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="22" fill="#2B6CB0" letter-spacing="1">MAXIMA</text>
+  <!-- ACCOUNTANTS text -->
+  <text x="64" y="62" font-family="Arial, sans-serif" font-weight="600" font-size="13.5" fill="#2D3748" letter-spacing="2.5">ACCOUNTANTS</text>
+</svg>
