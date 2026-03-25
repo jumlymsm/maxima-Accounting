@@ -65,6 +65,48 @@ if (contactForm) {
   });
 }
 
+// ===== EXPERIENCE SLIDER =====
+(function () {
+  const track  = document.getElementById('sliderTrack');
+  const prev   = document.getElementById('sliderPrev');
+  const next   = document.getElementById('sliderNext');
+  const dots   = document.querySelectorAll('.slider-dots .dot');
+  if (!track) return;
+
+  const slides = track.querySelectorAll('.slide');
+  let current  = 0;
+  let timer;
+
+  function goTo(index) {
+    current = (index + slides.length) % slides.length;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+  }
+
+  function startAuto() {
+    timer = setInterval(() => goTo(current + 1), 5000);
+  }
+  function resetAuto() {
+    clearInterval(timer);
+    startAuto();
+  }
+
+  next  && next.addEventListener('click',  () => { goTo(current + 1); resetAuto(); });
+  prev  && prev.addEventListener('click',  () => { goTo(current - 1); resetAuto(); });
+  dots.forEach(d => d.addEventListener('click', () => { goTo(+d.dataset.index); resetAuto(); }));
+
+  // touch/swipe support
+  let startX = 0;
+  track.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+  track.addEventListener('touchend',   e => {
+    const diff = startX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) { goTo(diff > 0 ? current + 1 : current - 1); resetAuto(); }
+  });
+
+  goTo(0);
+  startAuto();
+})();
+
 // ===== SERVICES TABS (services.html) =====
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
