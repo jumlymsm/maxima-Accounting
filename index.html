@@ -800,7 +800,18 @@
     <!-- Launcher button -->
     <button class="chat-launcher" id="chatLauncher" aria-label="Open chat">
       <span class="chat-launcher__open">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <!-- head -->
+          <circle cx="12" cy="7" r="4"/>
+          <!-- shoulders / body -->
+          <path d="M4 21c0-4.418 3.582-8 8-8s8 3.582 8 8" fill="currentColor"/>
+          <!-- tie -->
+          <polygon points="12,13 10.5,16 12,22 13.5,16" fill="rgba(255,255,255,0.35)"/>
+          <!-- collar left -->
+          <path d="M10.5,13.2 L9,15 L12,13.5Z" fill="rgba(255,255,255,0.5)"/>
+          <!-- collar right -->
+          <path d="M13.5,13.2 L15,15 L12,13.5Z" fill="rgba(255,255,255,0.5)"/>
+        </svg>
       </span>
       <span class="chat-launcher__close">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
