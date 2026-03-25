@@ -133,9 +133,40 @@ img { max-width: 100%; display: block; }
 .hero__card svg { width: 30px; height: 30px; color: #93C5FD; flex-shrink: 0; }
 .hero__card div strong { display: block; font-weight: 600; font-size: 0.88rem; }
 .hero__card div small { font-size: 0.76rem; color: rgba(255,255,255,0.62); }
-.hero__card--1 { top: 5%;  right: 0; }
-.hero__card--2 { top: 42%; right: -16px; }
-.hero__card--3 { top: 78%; right: 8px; }
+
+/* Hero image wrapper — photo fills right column, cards float on top */
+.hero__img-wrap {
+  position: relative;
+  width: 100%;
+  height: 460px;
+  border-radius: 20px;
+  overflow: visible;
+}
+.hero__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.35);
+}
+.hero__img-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(15,39,68,0.18) 0%, rgba(43,108,176,0.10) 100%);
+  pointer-events: none;
+}
+
+/* Cards sit on top of the photo */
+.hero__img-wrap .hero__card {
+  position: absolute;
+  z-index: 2;
+}
+.hero__card--1 { top: 6%;   right: -24px; }
+.hero__card--2 { top: 42%;  right: -28px; }
+.hero__card--3 { bottom: 6%; right: -16px; top: auto; }
+
 .hero__wave { position: absolute; bottom: -1px; left: 0; right: 0; }
 .hero__wave svg { width: 100%; height: 60px; }
 
@@ -173,6 +204,13 @@ img { max-width: 100%; display: block; }
   aspect-ratio: 1; display: flex; align-items: center; justify-content: center;
 }
 .about__img-placeholder svg { width: 70%; height: 70%; }
+/* Real photo replaces placeholder */
+.about__photo {
+  width: 100%; height: 100%; object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 56px rgba(43,108,176,0.18);
+  display: block;
+}
 .about__badge-float {
   position: absolute; bottom: -20px; right: -20px;
   background: var(--blue); color: #fff; border-radius: var(--radius);
@@ -244,22 +282,23 @@ input:checked + .toggle-slider::before { transform: translateX(24px); }
 .contact__detail { display: flex; align-items: flex-start; gap: 12px; }
 .contact__detail svg  { width: 22px; height: 22px; color: var(--blue); flex-shrink: 0; margin-top: 2px; }
 .contact__detail span { color: var(--slate); font-size: 0.93rem; }
-.contact__form { background: var(--white); border-radius: 16px; padding: 40px; box-shadow: var(--shadow); }
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
-.form-group label { font-size: 0.85rem; font-weight: 600; color: var(--charcoal); }
+.contact__form { background: var(--white); border-radius: 16px; padding: 32px; box-shadow: var(--shadow); }
+.contact__form--compact .form-group { margin-bottom: 10px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.form-group { display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px; }
+.form-group label { font-size: 0.8rem; font-weight: 600; color: var(--charcoal); }
 .form-group input,
 .form-group select,
 .form-group textarea {
-  padding: 11px 14px; border: 1.5px solid var(--border); border-radius: 8px;
-  font-size: 0.92rem; font-family: inherit; color: var(--charcoal); background: #fff;
+  padding: 9px 12px; border: 1.5px solid var(--border); border-radius: 8px;
+  font-size: 0.88rem; font-family: inherit; color: var(--charcoal); background: #fff;
   transition: border-color 0.2s;
 }
 .form-group input:focus,
 .form-group select:focus,
-.form-group textarea:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px rgba(43,108,176,0.12); }
-.form-group textarea { resize: vertical; }
-.form-note { text-align: center; color: var(--slate); font-size: 0.8rem; margin-top: 12px; }
+.form-group textarea:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px rgba(43,108,176,0.10); }
+.form-group textarea { resize: none; }
+.form-note { text-align: center; color: var(--slate); font-size: 0.78rem; margin-top: 8px; }
 .form-success {
   display: none; align-items: center; gap: 10px;
   background: #DCFCE7; color: #166534; border-radius: 8px;
